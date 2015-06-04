@@ -1,0 +1,305 @@
+id of node: 2
+endpoints initialized
+calling init owner server 2
+Starting server at 8002
+listening
+starting while loop !!!
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr merge: 305397760
+addr merge: 305397760
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr merge: 305397760
+addr merge: 305397760
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr merge: 305397760
+addr merge: 305397760
+addr merge: 305397760
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr merge: 305397760
+addr merge: 305397760
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr merge: 305397760
+addr merge: 305397760
+addr merge: 305397760
+addr merge: 305397760
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr merge: 305397760
+addr merge: 305397760
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr merge: 305397760
+addr merge: 305397760
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr merge: 305397760
+addr merge: 305397760
+addr merge: 305397760
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr merge: 305397760
+addr merge: 305397760
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr merge: 305397760
+addr merge: 305397760
+addr merge: 305397760
+addr merge: 305397760
+addr merge: 305397760
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr merge: 305397760
+addr merge: 305397760
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr merge: 305397760
+addr merge: 305397760
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr merge: 305397760
+addr merge: 305397760
+addr merge: 305397760
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr merge: 305397760
+addr merge: 305397760
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr merge: 305397760
+addr merge: 305397760
+addr merge: 305397760
+addr merge: 305397760
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr merge: 305397760
+addr merge: 305397760
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr merge: 305397760
+addr merge: 305397760
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr merge: 305397760
+addr merge: 305397760
+addr merge: 305397760
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr merge: 305397760
+addr merge: 305397760
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr mergesort 305397760 2
+addr merge: 305397760
+addr mergesort 305397760 2
+addr merge: 305397760
+addr merge: 305397760
+addr merge: 305397760
+addr merge: 305397760
+addr merge: 305397760
+addr merge: 305397760
+done

@@ -1,0 +1,6 @@
+id of node: 3
+endpoints initialized
+calling init owner server 3
+Starting server at 8003
+listening
+starting while loop !!!

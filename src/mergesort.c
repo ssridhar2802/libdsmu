@@ -1,0 +1,140 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/time.h>
+#include <unistd.h>
+
+#include "libdsmu.h"
+#include "mem.h"
+
+#define SIZE 100
+#define SEED 69
+
+typedef int array [SIZE];
+
+int id;
+
+int randint() {
+  return rand() % 1000;
+}
+
+void merge(int** arrp, int l, int m, int r)
+{
+  int *arr = *arrp;
+  printf("addr merge: %d\n", arr);
+  int i, j, k;
+  int n1 = m - l + 1;
+  int n2 =  r - m;
+ 
+  /* create temp arrays */
+  int L[n1], R[n2];
+ 
+  /* Copy data to temp arrays L[] and R[] */
+  for(i = 0; i < n1; i++)
+    L[i] = arr[l + i];
+  for(j = 0; j < n2; j++)
+    R[j] = arr[m + 1+ j];
+ 
+  /* Merge the temp arrays back into arr[l..r]*/
+  i = 0;
+  j = 0;
+  k = l;
+  while (i < n1 && j < n2)
+    {
+      if (L[i] <= R[j])
+        {
+	  arr[k] = L[i];
+	  i++;
+        }
+      else
+        {
+	  arr[k] = R[j];
+	  j++;
+        }
+      k++;
+    }
+ 
+  /* Copy the remaining elements of L[], if there are any */
+  while (i < n1)
+    {
+      arr[k] = L[i];
+      i++;
+      k++;
+    }
+ 
+  /* Copy the remaining elements of R[], if there are any */
+  while (j < n2)
+    {
+      arr[k] = R[j];
+      j++;
+      k++;
+    }
+}
+
+void mergeSort(int **arrp, int l, int r)
+{
+  int *arr = *arrp;
+  printf("addr mergesort %d %d\n", arr, id);
+  if (l < r)
+    {
+      int m = l+(r-l)/2; //Same as (l+r)/2, but avoids overflow for large l and h
+      mergeSort(&arr, l, m);
+      mergeSort(&arr, m+1, r);
+      merge(&arr, l, m, r);
+    }
+}
+
+/* Function to print an array */
+void printArray(int A[], int size)
+{
+  int i;
+  for (i=0; i < size; i++)
+    printf("%d ", A[i]);
+  printf("\n");
+}
+ 
+/* Driver program to test above functions */
+int main(int argc, char *argv[]) {
+  if (argc < 5) {
+    printf("Usage: main MANAGER_IP MANAGER_PORT id[1|2|...|n] nodes[n]\n");
+    return 1;
+  }
+
+  srand(SEED);
+
+  char *ip = argv[1];
+  int port = atoi(argv[2]);
+  id = atoi(argv[3]);
+  int n = atoi(argv[4]);
+
+  printf("id of node: %d\n", id); 
+  initlibdsmu(ip, port, 0x12340000, 4096 * 10000, id);
+  sleep(5);
+  struct timeval tv;
+  gettimeofday(&tv, NULL);
+  double start_ms = (tv.tv_sec) * 1000 + (tv.tv_usec) / 1000;
+
+  int *arr = (int *) 0x12340000;
+
+  int i = 0;
+  for (i = 0; i < SIZE; i++){
+    int t = randint();
+    *(arr+i) = t;
+    /* printf("i value is : %d %d %d %d\n", arr, arr+i, t, arr[i]); */
+  }
+  /* *(arr+i) = '\0'; */
+  /* int arr[] = {12, 11, 13, 5, 6, 7, -1, -1000, 10000}; */
+  int arr_size = sizeof(arr)/sizeof(arr[0]);
+
+  arr_size = i;
+  /* printf("array size is : %d\n", arr_size); */
+
+  /* printf("Given array is \n"); */
+  /* printArray(arr, arr_size); */
+ 
+  mergeSort(&arr, 0, arr_size - 1);
+  printf("done\n");
+  sleep(10);
+  printf("\nSorted array is \n");
+  printArray(arr, arr_size);
+  return 0;
+}
