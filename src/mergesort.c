@@ -73,7 +73,7 @@ void merge(int** arrp, int l, int m, int r)
 void mergeSort(int **arrp, int l, int r)
 {
   int *arr = *arrp;
-  printf("addr mergesort %d %d\n", arr, id);
+  printf("Addr mergesort %d %d\n", arr, id);
   if (l < r)
     {
       int m = l+(r-l)/2; //Same as (l+r)/2, but avoids overflow for large l and h
